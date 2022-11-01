@@ -1,0 +1,452 @@
+body{
+  color: aliceblue;
+}
+.gyms-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.gyms-page{
+   position: relative;
+}
+#jointheteam{
+   color: #fff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 3rem;
+   text-align: center;
+   top: 1rem;
+   margin-top: 20vh;
+}
+.gyms-cards-container{
+   height: 100vh;
+   overflow: scroll;
+   width: 100%;
+   margin-top: 1rem;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 10rem;
+}
+
+.job-profiles{
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   padding: 2rem;
+   border-radius: 1rem;
+   position: relative;
+   background-color: #e5e5e57b;   
+}
+#job-btn{
+   padding: 0.2rem 0.5rem;
+   background-color: #3b8fe9;
+   border-radius: 2px;
+}
+#job-btn:hover{
+   background-color: white;
+}
+#job-btn button{
+   color: white;
+}
+#job-btn:hover button{
+   color: black;
+}
+#job-filter{
+   color: white;
+   padding: 0.2rem 0.5rem;
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   border-radius: 2px;
+}
+#hr-gyms{
+   background-color: grey;
+   border: 2px solid grey;
+   border-radius: 2px;
+}
+#job-filter p{
+   color: black;
+}
+#filter-btn{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+#openings{
+   color: aliceblue;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-transform: uppercase;
+   font-size: 2rem;
+}
+.jobs-category{
+   align-items: center;
+   display: flex;
+   margin-top: 1rem;
+   flex-direction: column;
+}
+.hide-job{
+   display: none;
+}
+.job-hidden{
+   display: none;
+}
+.job-display{
+   display: block;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.filter-btn-div{
+   background-color: rgba(20, 19, 19, 0.626);
+   width: 70%;
+   height: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 1%;
+   -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.gyms-card{
+  background-color: rgb(71, 71, 71);
+   height: wrap-content;
+   width: 50vw;
+   margin: auto;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-radius: 5px;
+   margin-bottom: 1rem;
+   -webkit-box-shadow: 0px 1px 5px 0px rgba(55,55,55,1);
+   -moz-box-shadow: 0px 1px 5px 0px rgb(55, 55, 55);
+   box-shadow: 0px 1px 5px 0px rgba(55,55,55,1);
+   position: relative;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.free-tag{
+  color: white;
+  background-color: #bc0707;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  padding: 0.2rem 0.7rem;
+  margin: auto;
+  border-radius: 0 1rem 1rem 0;
+}
+#bottom-desc button{
+  cursor: pointer;
+}
+#bottom-desc button a{
+  color: white;
+  text-decoration: none;
+}
+.discount-tag{
+  color: white;
+  background-color: rgb(207, 90, 90);
+  position: absolute;
+  left: 30%;
+  top: 0;
+  padding: 0.2rem 0.7rem;
+  margin: auto;
+  border-radius: 0 0 5px 5px;
+}
+#gym-img img{
+  width: 10rem;
+}
+.card-description p{
+  color: white;
+}
+.card-description {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  justify-content: space-between;
+}
+#bottom-desc button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem 0.5rem 0.5rem 0;
+  background-color: #e52f2f;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+#bottom-desc p{
+  color: rgb(210, 210, 39);
+  font-weight: 500;
+}
+.titles{
+   color: black;
+}
+#job-position{
+   margin-bottom: 2rem;
+}
+#job-title{
+   color: rgb(49, 49, 129);
+   border-bottom: 2px solid rgb(49, 49, 129);
+   text-align: center;
+   margin-bottom: 1rem;
+}
+#apply-btn{
+   color: rgb(49, 49, 129);
+}
+
+
+/* Header Buttons */
+.job-header{
+   background-color: white;
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1.5rem;
+   border-radius: 5px 5px 0 0;
+}
+.tabs{
+   background-color: #fff;
+   padding: 10px;
+   flex: 1;
+   font-size: 1.2rem;
+   border-radius: 5px 5px 0 0;
+}
+
+.active-tabs{
+   background-color: rgb(59, 143, 233);
+   border-radius: 5px 5px 0 0;
+   color: white;
+}
+#hr-text{
+   padding-bottom: 1rem;
+}
+#title-status{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+#gyms-card-title{
+  color: #fff;
+}
+
+/* .................. Filters.................. */
+.gym-filter{
+  width: 40vw;
+  height: 100vh;
+  margin-top: 3rem;
+}
+.inputfield-location{
+  border: 1px solid white;
+  background-color: rgb(169, 168, 168);
+  width: 50%;
+  padding: 0.3rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.inputfield-price{
+  border: 1px solid white;
+  background-color: rgb(169, 168, 168);
+  width: 20%;
+  padding: 0.3rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+input::placeholder{
+  color: white;
+}
+#inner-filters{
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+}
+#inner{
+  background-color: #161616;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  justify-content: space-evenly;
+  height: 100%;
+}
+#price-filter{
+  display: flex;
+  flex-direction: row;
+}
+#price-filter input{
+  margin-right: 1rem;
+  color: white;
+}
+#inner h3, #inner h5{
+  color: white;
+}
+#cities-filter select{
+  outline: none;
+  padding: 2px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+#location-filter input{
+  color: white;
+  padding-left: 5px;
+}
+#gyms-cards-container::-webkit-scrollbar{
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .filter-btn-div{
+   width: 90%;
+  }
+   .gyms-card{
+       width: 80%;
+       padding: 1rem;
+   }
+   
+   .job-profiles{
+       width: 90%;
+   }
+   .job-header{
+       width: 90%;
+   }
+   .job-header button{
+       font-size: 0.8rem;
+   }
+   #job-btn{
+       font-size: 0.8rem;
+   }
+   #job-filter p{
+       font-size: 0.8rem;
+   }
+   #job-filter select{
+       font-size: 0.8rem;
+   }
+   .tabs{
+       color: black;
+   }
+   .active-tabs{
+       color: white;
+   }
+   #jointheteam{
+       font-size: 3rem;
+   }
+}
+@media only screen and (max-width: 500px) {
+   .filter-btn-div{
+       padding: 0 7%;
+   }
+   #jointheteam{
+       font-size: 2.5rem;
+   }
+   .job-profiles{
+       width: 90%;
+   }
+   .job-header{
+       width: 90%;
+   }
+   
+}
+/* ..................................................  Search Bar ...................................................... */
+#search-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid rgb(198, 198, 198);
+  margin: 2rem auto;
+  border-radius: 5px;
+  background-color: rgb(64, 64, 64);
+  padding: 0.3rem 1rem;
+  width: 80vw;
+
+}
+#search-field{
+  flex: 1;
+}
+#search-field input{
+  width: 95%;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+#search-btn{
+  background-color: #bc0707;
+  padding: 0.2rem 1rem;
+  margin: 0.2rem 0;
+  color: rgb(198, 198, 198);
+  font-size: large;
+  border-radius: 5px;
+  width:3rem;
+}
+#search-btn{
+  cursor: pointer;
+}
+#search-location{
+  background: #bc0707;
+  margin: 0 1rem;
+  padding: 0.3rem 0.3rem 0.1rem 0.3rem;
+  border-radius: 5px;
+}
+#search-location:hover{
+  cursor: pointer;
+}
+#search-icon{
+  margin-right: 1rem;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+/* ........................... Media Queries .................................. */
+
+@media only screen and (max-width: 1000px) {
+  .gyms-card {
+      width: 75%;
+      margin: 1rem auto;
+      padding: 1rem;
+      height: 20vh;
+  }
+  .gyms-container{
+      flex-direction: column;
+  }
+  .gym-filter {
+      width: 80vw;
+      margin: auto;
+      height: 50%;
+      margin-top: 2rem;
+  }
+  #inner-filters{
+      margin-left: 0;
+  }
+  #inner{
+      width: 80%;
+      padding: 1rem 1.5rem;
+  }
+  #inner h5{
+      margin-top: 1rem;
+  }
+  .discount-tag{
+      left: 20%;
+  }
+  #bottom-desc p{
+      display: none;
+  }
+}
