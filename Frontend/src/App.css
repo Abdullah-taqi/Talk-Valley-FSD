@@ -1,12 +1,12 @@
 body{
   color: aliceblue;
 }
-.gyms-container{
+.ads-container{
   position: relative;
   display: flex;
   flex-direction: row;
 }
-.gyms-page{
+.ads-page{
    position: relative;
 }
 #jointheteam{
@@ -17,7 +17,7 @@ body{
    top: 1rem;
    margin-top: 20vh;
 }
-.gyms-cards-container{
+.ads-cards-container{
    height: 100vh;
    overflow: scroll;
    width: 100%;
@@ -29,7 +29,7 @@ body{
    margin-bottom: 10rem;
 }
 
-.job-profiles{
+.ad-banners{
    display: flex;
    flex-direction: column;
    width: 70%;
@@ -60,7 +60,7 @@ body{
    flex-direction: row;
    border-radius: 2px;
 }
-#hr-gyms{
+#hr-ads{
    background-color: grey;
    border: 2px solid grey;
    border-radius: 2px;
@@ -111,7 +111,7 @@ body{
    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
 }
 
-.gyms-card{
+.ads-card{
   background-color: rgb(71, 71, 71);
    height: wrap-content;
    width: 50vw;
@@ -156,7 +156,7 @@ body{
   margin: auto;
   border-radius: 0 0 5px 5px;
 }
-#gym-img img{
+#ad-img img{
   width: 10rem;
 }
 .card-description p{
@@ -232,12 +232,12 @@ body{
    justify-content: space-between;
    align-items: center;
 }
-#gyms-card-title{
+#ads-card-title{
   color: #fff;
 }
 
 /* .................. Filters.................. */
-.gym-filter{
+.ad-filter{
   width: 40vw;
   height: 100vh;
   margin-top: 3rem;
@@ -307,7 +307,7 @@ input::placeholder{
   color: white;
   padding-left: 5px;
 }
-#gyms-cards-container::-webkit-scrollbar{
+#ads-cards-container::-webkit-scrollbar{
   display: block;
 }
 
@@ -315,12 +315,12 @@ input::placeholder{
   .filter-btn-div{
    width: 90%;
   }
-   .gyms-card{
+   .ads-card{
        width: 80%;
        padding: 1rem;
    }
    
-   .job-profiles{
+   .ad-banners{
        width: 90%;
    }
    .job-header{
@@ -355,7 +355,7 @@ input::placeholder{
    #jointheteam{
        font-size: 2.5rem;
    }
-   .job-profiles{
+   .ad-banners{
        width: 90%;
    }
    .job-header{
@@ -418,16 +418,16 @@ input::placeholder{
 /* ........................... Media Queries .................................. */
 
 @media only screen and (max-width: 1000px) {
-  .gyms-card {
+  .ads-card {
       width: 75%;
       margin: 1rem auto;
       padding: 1rem;
       height: 20vh;
   }
-  .gyms-container{
+  .ads-container{
       flex-direction: column;
   }
-  .gym-filter {
+  .ad-filter {
       width: 80vw;
       margin: auto;
       height: 50%;
